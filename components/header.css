@@ -1,0 +1,87 @@
+.header {
+  background-color: #13171c;
+  width: 100%;
+  height: 114px;
+  padding: 37px 24px;
+}
+
+.cont-header {
+  margin: 0 auto;
+  max-width: 1275px;
+  max-height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__logo {
+  height: 190px;
+}
+
+.header__burger-boton {
+  background-color: #13171c;
+  border: none;
+}
+@media (min-width: 769px) {
+  .header__burger-boton {
+    display: none;
+  }
+}
+
+.nav__header {
+  display: none;
+}
+@media (min-width: 769px) {
+  .nav__header {
+    display: flex;
+    gap: 20px;
+  }
+
+  .link-nav__header {
+    color: #eee;
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+  }
+}
+
+.ventana {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #000;
+  display: none;
+}
+
+.boton--cerrar-vent {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  text-align: center;
+  background-color: #000;
+  width: 50px;
+  height: 50px;
+  border: none;
+}
+
+.nav__ventana {
+  display: flex;
+  flex-direction: column;
+  margin-top: 200px;
+}
+
+.link-nav {
+  text-decoration: none;
+  color: #eee;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 96px;
+}

@@ -1,0 +1,89 @@
+.footer {
+  width: 100%;
+  height: 534px;
+  background-color: #13171c;
+  padding: 79px 0;
+}
+
+.cont-footer {
+  max-width: 1260px;
+  max-height: 400px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.logo-footer {
+  width: 150px;
+  margin-left: 20px;
+}
+
+.nava-paginas {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 0;
+}
+@media (min-width: 769px) {
+  .nava-paginas {
+    max-width: 477px;
+    flex-direction: row;
+    gap: 30px;
+    text-align: center;
+  }
+}
+
+.link__nava-pagina {
+  color: #eee;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration: none;
+  margin: 10px 0 0 0;
+}
+@media (min-width: 769px) {
+  .link__nava-pagina {
+    display: flex;
+  }
+}
+
+.img__nava-pagina {
+  max-width: 24px;
+  max-height: 24px;
+  margin-right: 5px;
+}
+
+.nava-redes {
+  display: flex;
+  align-items: flex-start;
+  gap: 24px;
+  margin: 20px 0 0 0;
+}
+
+.link__nava-redes {
+  display: flex;
+  max-width: 48px;
+  max-height: 48px;
+  padding: 12px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  background-color: #192130;
+}
+
+.link__footer {
+  color: rgba(238, 238, 238, 0.75);
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: flex;
+  text-decoration: none;
+  margin-top: 50px;
+}

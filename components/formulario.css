@@ -1,0 +1,136 @@
+.formulario {
+  width: 100%;
+  height: 997px;
+  background-color: #13171c;
+  padding: 39px 0;
+}
+@media (min-width: 769px) {
+  .formulario {
+    max-height: 1024px;
+    padding: 250px 0;
+  }
+}
+
+.cont-formulario {
+  height: 768px;
+  width: 313px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media (min-width: 769px) {
+  .cont-formulario {
+    width: 100%;
+    max-width: 1225px;
+    max-height: 516px;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+.title-formulario {
+  margin: 0;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 80px;
+}
+@media (min-width: 769px) {
+  .title-formulario {
+    font-size: 64px;
+    margin-top: -400px;
+  }
+}
+
+.from {
+  margin: 39px 0 0 0;
+  width: 313px;
+  height: 649px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+@media (min-width: 769px) {
+  .from {
+    width: 100%;
+    max-width: 600px;
+    max-height: 516px;
+    margin: 0 auto;
+    margin: 20px;
+  }
+  .cont__label-tex-email {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.label {
+  margin: 5px;
+}
+
+.label-title {
+  color: #eee;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin: 10px 0 0 0;
+}
+
+.label-input,
+.label-textarea {
+  margin: 5px 0 0 0;
+  width: 100%;
+  height: 59px;
+  border-radius: 16px;
+  background-color: rgba(57, 62, 70, 0.5);
+  color: rgba(238, 238, 238, 0.5);
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.label-textarea {
+  height: 280px;
+}
+
+.cont-boton__from {
+  width: 100%;
+  height: 55px;
+  margin: 10px 0 0 0;
+}
+@media (min-width: 769px) {
+  .cont-boton__from {
+    max-width: 231px;
+    max-height: 55px;
+  }
+}
+
+.boton__from {
+  width: 100%;
+  height: 100%;
+  padding: 10px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 24px;
+  background: #00adb5;
+  color: #000;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.img-boton {
+  width: 24px;
+  height: 24px;
+}
