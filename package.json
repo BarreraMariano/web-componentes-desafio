@@ -1,0 +1,15 @@
+{
+  "name": "web-componentes-desafio",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:BarreraMariano/web-componentes-desafio.git",
+  "author": "Mariano Barrera <marianobarrera16@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
+  },
+  "scripts": {
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -d build"
+  }
+}
